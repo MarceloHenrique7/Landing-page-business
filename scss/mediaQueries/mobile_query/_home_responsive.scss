@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px) {
+
+    .section_home {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        .content {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .content_image {
+            order: 1;
+        }
+
+        .content_text {
+            max-width: 400px;
+            margin-top: 50px;
+            order: 2;
+            h1.content__title {
+                font-size: 10vw;
+            }
+        
+            p.content__description {
+                font-size: 1em;
+            }
+        }
+
+        .content_image {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+            img {
+                width: 100%;
+            }
+        }
+            
+        }
+}
+
+
+// Tablet 
+
+@media screen and (max-width: 1200px) {
+
+    .section_home{
+        .content_text {
+            max-width: 300px;
+            
+            h1.content__title {
+                font-size: 4vw;
+            }
+        
+            p.content__description {
+                font-size: 1em;
+            }
+        }    
+        .content_image {
+            max-width: 300px;
+           
+            img {
+                width: 100%;
+            }
+        }
+    }
+    
+}

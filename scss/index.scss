@@ -13,17 +13,17 @@
 @import "partials/_footer.scss"; 
 
 
-// Responsive Mobile
+// Responsive
 
-@import "mediaQueries/mobile_query/_header_mobile";
-@import "mediaQueries/mobile_query/_home_mobile.scss";
-@import "mediaQueries/mobile_query/_mid_mobile";
-@import "mediaQueries/mobile_query/_reviews_mobile";
-@import "mediaQueries/mobile_query/_plans_mobile";
-@import "mediaQueries/mobile_query/_about_mobile";
-@import "mediaQueries/mobile_query/_countries_mobile";
-@import "mediaQueries/mobile_query/_form_mobile";
-@import "mediaQueries/mobile_query/_footer_mobile";
+@import "mediaQueries/mobile_query/_header_responsive";
+@import "mediaQueries/mobile_query/_home_responsive.scss";
+@import "mediaQueries/mobile_query/_mid_responsive";
+@import "mediaQueries/mobile_query/_reviews_responsive";
+@import "mediaQueries/mobile_query/_plans_responsive";
+@import "mediaQueries/mobile_query/_about_responsive";
+@import "mediaQueries/mobile_query/_countries_responsive";
+@import "mediaQueries/mobile_query/_form_responsive";
+@import "mediaQueries/mobile_query/_footer_responsive";
 
 
 * {
