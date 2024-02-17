@@ -1,0 +1,59 @@
+@import "components/_colors.scss";
+@import "components/_fonts.scss";
+
+@import "partials/_header.scss"; 
+@import "partials/_home.scss"; 
+@import "partials/_companies.scss"; 
+@import "partials/_mid.scss"; 
+@import "partials/_reviews.scss"; 
+@import "partials/_plans.scss"; 
+@import "partials/_about.scss"; 
+@import "partials/_countries.scss"; 
+@import "partials/_form.scss"; 
+@import "partials/_footer.scss"; 
+
+
+// Responsive Mobile
+
+@import "mediaQueries/mobile_query/_header_mobile";
+@import "mediaQueries/mobile_query/_home_mobile.scss";
+@import "mediaQueries/mobile_query/_mid_mobile";
+@import "mediaQueries/mobile_query/_reviews_mobile";
+@import "mediaQueries/mobile_query/_plans_mobile";
+@import "mediaQueries/mobile_query/_about_mobile";
+@import "mediaQueries/mobile_query/_countries_mobile";
+@import "mediaQueries/mobile_query/_form_mobile";
+@import "mediaQueries/mobile_query/_footer_mobile";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    color: $white;
+    background: linear-gradient(to right, $background-color, $background-color2);
+    font-family: $font-family;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.main {
+    width: 76%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.line-div {
+    height: 2px;
+    background-color: $gray;
+}
+
+

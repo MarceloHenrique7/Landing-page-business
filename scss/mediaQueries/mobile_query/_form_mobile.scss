@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 768px) {
+    .section_form {
+        flex-direction: column;
+  
+        .content_img {
+            order: 1;
+            margin-bottom: 30px;
+            
+            img {
+                max-width: 200px;
+            }
+        }
+    
+        .content_text_form {
+            order: 2;
+
+            .content__title {
+                font-size: 2em;
+            }
+        }
+  
+        .form {
+            align-items: center;
+            justify-content: center;
+            
+            label.form__label {
+                font-size: 1.3em;
+                
+            }
+
+            button.button__submit, input.form__input {
+                display: block;
+                width: 80%;
+            }
+        }
+    }
+}

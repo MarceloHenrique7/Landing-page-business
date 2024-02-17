@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 768px) {
+    .section_plans {
+
+        .plans {
+            margin: 0;
+        }
+    
+        div.basic__plan, .medium__plan, .premium__plan {
+            width: 350px;
+            margin: 50px 0px;
+        }
+    }
+}

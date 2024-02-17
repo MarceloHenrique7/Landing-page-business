@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    .footer {
+
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    
+        div {
+            margin: 0 auto;
+            h2 {
+                font-size: 2em;
+                padding: 15px 0;
+                margin: 0;
+            }
+    
+            a{
+                font-size: 1.5em;
+                padding: 10px;
+    
+                cursor: pointer;
+            }
+    
+            
+        }
+        
+        div.logo_footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .invite_footer {
+            grid-column: span 2;
+            h2 {
+                margin-bottom: 15px;
+            }
+    
+            a.content__link {
+                
+                max-width: 400px;
+                span {
+                    font-size: 1.2em;
+                }
+                
+                img {
+                    max-width: 70px;
+                }
+            }
+    
+        }
+    }
+}
