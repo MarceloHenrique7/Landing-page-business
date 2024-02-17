@@ -50,7 +50,11 @@
         margin: 8px;
         transition: 0.3s;
     }
+    .mobile-menu.active {
+        position: fixed;
+        padding: 40px;
 
+    }
     
     .mobile-menu.active .line1 {
         transform: rotate(-45deg) translate(-8px, 8px);
