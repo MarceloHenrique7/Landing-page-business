@@ -714,6 +714,9 @@ section.invite_community div.content_community a.button:hover {
     margin-top: 30px;
     order: 2;
   }
+  .section_about .content__text h1.content__title {
+    font-size: 2em;
+  }
 }
 @media screen and (max-width: 768px) {
   .section_countries {
@@ -723,11 +726,14 @@ section.invite_community div.content_community a.button:hover {
     order: 1;
   }
   .section_countries .content__img img {
-    max-width: 400px;
+    max-width: 300px;
   }
   .section_countries .content__text {
     margin-top: 30px;
     order: 2;
+  }
+  .section_countries .content__text h1.content__title {
+    font-size: 2em;
   }
 }
 @media screen and (max-width: 768px) {
@@ -746,6 +752,7 @@ section.invite_community div.content_community a.button:hover {
   }
   .section_form .content_text_form .content__title {
     font-size: 2em;
+    text-align: center;
   }
   .section_form .form {
     align-items: center;
@@ -768,12 +775,12 @@ section.invite_community div.content_community a.button:hover {
     margin: 0 auto;
   }
   .footer div h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 15px 0;
     margin: 0;
   }
   .footer div a {
-    font-size: 1.5em;
+    font-size: 1.1em;
     padding: 10px;
     cursor: pointer;
   }
