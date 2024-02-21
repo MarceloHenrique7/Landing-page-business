@@ -37,3 +37,25 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .section_form {
+        padding: 50px;
+        
+        .content_text_form {
+            max-width: 300px;
+            .content__title {
+                font-size: 1.8em;
+                text-align: center;
+            }
+        }
+        .content_img {
+            img {
+                max-width: 200px;
+            }
+        }
+    
+    }
+
+}

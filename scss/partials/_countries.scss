@@ -7,12 +7,17 @@
     background-color: $white;
 
 
+    .content__img {
+        img {
+            max-width: 500px;
+        }
+
+    }
 
     .content__text {
         max-width: 500px;
         color: $gray;
         
-
         h1.content__title {
             font-size: 2.8em;
             margin-bottom: 25px;

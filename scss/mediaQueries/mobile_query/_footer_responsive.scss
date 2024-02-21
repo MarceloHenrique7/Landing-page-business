@@ -49,3 +49,40 @@
         }
     }
 }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .footer {
+        grid-template-columns: repeat(4, 1fr);
+
+        div {
+            margin: 0 auto;
+            h2 {
+                font-size: 1.7em;
+            }
+    
+            a{
+                font-size: 1.1em;
+            }
+        }
+
+        div.logo_footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .invite_footer {
+            margin-top: 40px;
+            h2 {
+                font-size: 1.7em;
+                margin-bottom: 15px;
+            }
+            grid-column: span 4;
+        }
+    }
+    
+
+}

@@ -33,6 +33,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     color: $white;
     background: linear-gradient(to right, $background-color, $background-color2);

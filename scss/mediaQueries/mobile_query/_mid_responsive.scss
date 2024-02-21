@@ -36,3 +36,27 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .section_mid {
+        .content_image img {
+            max-width: 200px;
+        }
+
+        p.content__category {
+            font-size: 1em;
+        }
+
+        h1.content__title {
+            font-size: 1.8em;
+            line-height: 1.2em;
+        }
+
+        div.content__link {
+            a.button {
+                font-size: 1em;
+            }
+        }
+    }
+
+}

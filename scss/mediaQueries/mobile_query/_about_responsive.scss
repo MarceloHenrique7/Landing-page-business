@@ -14,9 +14,31 @@
                 font-size: 2em; 
             }
         }
-    
-    
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .section_about {
+    
+        .content__img {
+            img {
+                max-width: 300px;
+            }
+        }
+        .content__text {
+            max-width: 300px;
+            margin-top: 30px;
+
+            h1.content__title {
+                font-size: 1.5em; 
+            }
+
+            p.content__about {
+                font-size: 1em;
+            }
+        }
+    }
+
 }
 
 

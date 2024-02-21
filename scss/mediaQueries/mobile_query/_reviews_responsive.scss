@@ -6,3 +6,27 @@
         }
     }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .section_reviews {
+        div.content_reviews {
+            grid-template-columns: repeat(2, 1fr);
+
+
+            div.box_review {
+                max-width: 300px;
+
+                h1, p {
+                    margin: 10px 0px;
+                    color: $white;
+                }
+    
+                p {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+}
