@@ -949,7 +949,6 @@ section.invite_community div.content_community a.button:hover {
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
