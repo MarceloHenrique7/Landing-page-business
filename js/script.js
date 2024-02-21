@@ -1,5 +1,6 @@
-const buttonSubmit = document.querySelector(".button__submit");
+AOS.init();
 
+const buttonSubmit = document.querySelector(".button__submit");
 
 function handleButtonSubmit () {
 
