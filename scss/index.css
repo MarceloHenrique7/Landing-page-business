@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 40px;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -944,11 +945,6 @@ section.invite_community div.content_community a.button:hover {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
