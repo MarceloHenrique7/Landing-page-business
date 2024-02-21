@@ -949,13 +949,13 @@ section.invite_community div.content_community a.button:hover {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   color: #fff;
   background: linear-gradient(to right, #000000, #130F40);
   font-family: "Outfit", "sans serif";
-  overflow-x: hidden;
 }
 
 a {
