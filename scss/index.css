@@ -956,6 +956,7 @@ body {
   color: #fff;
   background: linear-gradient(to right, #000000, #130F40);
   font-family: "Outfit", "sans serif";
+  overflow-y: hidden;
 }
 
 a {
