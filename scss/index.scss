@@ -34,13 +34,15 @@
 }
 
 html {
+    scroll-behavior: smooth; 
+    overflow-x: hidden;
 }
 
 body {
     color: $white;
     background: linear-gradient(to right, $background-color, $background-color2);
     font-family: $font-family;
-    
+    overflow-x: hidden;
     
 }
 
